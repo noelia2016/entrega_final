@@ -1,0 +1,49 @@
+<?php 
+    include("../controllers/registrar_tarea.php");
+?>
+<!DOCTYPE html>
+<head>
+    <title>TwoDo - Login </title>
+     <!-- PARA DARLE ESTILO A MI WEB -->
+    <link rel="stylesheet" href="../css/estilo.css">
+     <!-- PARA LOS ICONOS -->
+    <link rel="stylesheet" href="../font-awesome-4.7.0/css/font-awesome.min.css">
+    
+    <!-- PARA LA VALIDACION DE LOS FORMULARIOS -->
+    <script type="text/javascript" src="../js/validacion_formularios.js"></script>
+    
+</head>
+<body>
+    <div id="contenedor">
+        <!-- esto comprende a todo mi contenedor principal-->
+        <div id="encabezado">            
+            <!-- esto comprende a todo mi encabezado principal-->
+            <h1>Two-Do Tegistro de Usuario</h1>
+        </div>
+        <div id="cont_general">          
+            <!-- esto comprende a todo mi encabezado principal-->
+            <div id="login">
+               <br/>
+               <form name="new_user" onsubmit="return validar_AddUsuario(this);" action="../controllers/registrar_usuario.php" method="post" >
+                   <fieldset>
+                       <legend> Registrar nuevo usuario:</legend><br/>
+                       <label> <i class="fa fa-user-circle-o" aria-hidden="true"></i> Nombre:</label>
+                       <input name="name" type="text" value="" /><br/><br/>
+                       <label><i class="fa fa-asterisk" aria-hidden="true"></i> Apellido:</label>
+                       <input name="ape" type="text" value="" /><br/><br/>
+                       <label> <i class="fa fa-user-circle-o" aria-hidden="true"></i> Usuario:</label>
+                       <input name="nick" type="text" value="" /><br/><br/>
+                       <label><i class="fa fa-asterisk" aria-hidden="true"></i> Password:</label>
+                       <input name="contra" type="password" value="" /><br/><br/>
+                       <label><i class="fa fa-asterisk" aria-hidden="true"></i> Correo Electronico:</label>
+                       <input name="email" type="email" value="" placeholder="ejemplo@gmail.com" />
+                       <br/><br/>
+                       <input name="submit"type="submit" value="Ingresar"/><br/>
+                   <br/></fieldset>
+               </form>
+            </div>
+            <br/>
+        </div>
+    </div>
+</body>
+</html>

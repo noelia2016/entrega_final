@@ -1,0 +1,235 @@
+
+   #contenedor{
+       height:1680px;
+       width:1320px;
+       border-color:#FF09AA;
+       border-style:solid;
+       background-color:#F9EBEA; 
+   }
+   
+   ul li{
+       list-style: none;
+       margin-top:0.3px;
+       margin-right:0.8px;
+   }
+   
+   h1,h4, a, input {
+       margin-left:0.4px;
+   }
+   
+   a:link, a:visited { 
+        color: #A93226;
+        text-decoration: underline;
+        cursor: auto;
+   }
+
+   a:link:active, a:visited:active { 
+        color: ##A93226;
+   }
+   
+   a {
+      color: ##A93226;
+   }
+   
+   /* inicio del contenedor header */
+   #encabezado {
+       /*background-color: #E8D291;*/
+       background: -webkit-radial-gradient(#FF5733, #F95204, #9104F9); /* Safari 5.1 to 6.0 */
+       background: -o-radial-gradient(#FF5733, #F95204, #9104F9); /* For Opera 11.6 to 12.0 */
+       background: -moz-radial-gradient(#FF5733, #F95204, #9104F9); /* For Firefox 3.6 to 15 */
+       background: radial-gradient(#FF5733, #F95204, #9104F9); /* Standard syntax */
+       text-align: center;
+       text-transform: capitalize;
+       border-color:#AA30EE;
+       border-style:solid;
+       height:10%;
+       width:99.5%;
+   }
+
+   #logo {
+      color: blue;
+      text-align: center;
+      float:left;
+      /*border-color:red;
+      border-style:solid;*/
+      height:98.5%;
+      width:19.1%;
+   }
+   
+   #logo img {
+      height:95%;
+      width:95%;
+      border-radius: 160px; -webkit-border-radius: 160px; -moz-border-radius: 160px; no-repeat;
+      border:5px solid #FCFCF9;
+   }
+
+   #menu {
+      font-family: Arial;
+      font-size: 28pt;
+      color: white;
+      text-align: center;
+      float:left;
+      /*border-color:red;
+      border-style:solid;*/
+      height:99.9%;
+      width:80.8%;
+   } 
+
+   #menu ul {
+       clear: both;
+       float: left;
+       list-style: none;
+       margin-right:2px;
+   }
+   
+   .estados_checklist ul  {
+       margin-right:2px;
+       padding-right:5px;
+   }
+   
+   .rss li {
+        display:inline-block;
+        list-style-type: none;
+        padding: 0 0 5px 15px;
+        border-radius:60px 20px 5px;
+        border: white 7px double;
+   }
+   /* fin contenedor del header */
+   
+   /* contenedor general */
+   #cont_general {
+        border-color:green;
+        border-style:double;
+        width:99.5%;
+        height:89%;
+        clear:both;
+   }
+   
+   #cont_general p, textarea, h2 {
+        margin-left:12px;
+   }
+   
+   .comentarios {
+       margin-left:15px;
+   }
+   
+   .text-coment  p {
+       margin-left:25px;
+       padding-top:0.2px;
+   }
+    
+   #actividades {
+        background-color:#FCE890;
+        width:19%;
+        height:96.5%;
+        float:left;
+        margin-top:12px;
+        /*border-color:#EE99DD;
+        border-style:solid;*/
+   }
+   
+   #cuerpo {
+        /*border-color:#EE99DD;
+        border-style:solid;*/
+        width:80%;
+        height:98%;
+        float:left;
+        /*margin-top:1cm;*/
+   }
+   
+   #item-pendientes, #item-completas, #item-encurso {
+       width:26%;
+       height:98%;
+       float:left;
+       border-color:#yellow;
+       border-style:solid;
+       margin-left:1.5cm;
+       margin-top:12px;
+   }
+   
+   /* fin del contenedor general */
+   
+   /* contenedor del login */
+   #login {
+        width:60%;
+        height:80%;
+        text-align:center;
+        margin-top:1.5cm;
+        margin-left:23%;
+        margin-bottom:23%;
+   }
+   
+   #formu {
+       text-align:center;
+       float:clear;
+   } 
+   
+   /* contenedor del login */
+   
+   /* cuerpo de la tarea donde esta la descripcion y los responsables que van a realizar */
+   
+   .cuerpo-tarea {
+       margin: 10px 15px 10px 8px;
+       height:12%;
+       width:80%;
+   }
+   
+   .cuerpo-tarea a {
+       float:right;
+       margin-right:12px;
+   }
+   
+   .tarea_detalle, .tarea_vencida, .tarea_a_vencer {
+       border-color:#581845;
+       border-style:groove;
+       margin-top:13px;
+   }
+   
+   .tarea_vencida {
+       background-color:#F8380F;
+   }
+   
+   .tarea_a_vencer{
+       background-color:#F9EA08;
+   }
+   
+   .tarea_detalle{
+       background-color:#61D60F;
+   }
+   
+   .responsables, .acciones {
+       float:left;
+       width:50%;
+   }
+   
+   /* cuerpo de la tarea donde esta la descripcion y los responsables que van a realizar */
+   
+   /* inicio del contenedor de los checklist */
+   
+   .checklist h3 {
+       text-align:center;
+   }
+   
+   .checklist {
+       border-style:dashed;
+       border-color:#FF09AA;
+       border-width: 4px;  
+       height:450px;
+       width:95%;
+       margin-left:23px;
+   }
+   
+   .checklist a {
+       float:right;
+       margin-right:35px;
+   }
+   
+   /* fin del contenedor de los checklist*/
+   
+   /* ESTILO DE GRAFICOS */
+   .GraficoGoogleChart-ejemplo-1 {
+      width: 800px; 
+      height: 600px;
+      align:center;
+      margin-bottom:45px;
+   }
